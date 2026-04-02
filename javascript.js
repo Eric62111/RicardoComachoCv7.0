@@ -232,10 +232,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
   /* ---- Footer ---- */
-  const footerYear = document.querySelector('.footer-small');
-  if (footerYear) {
-    const yr = new Date().getFullYear();
-    footerYear.textContent = `Built with Time (Spent 3 Days) · 2026`;
-  }
+const footerYear = document.querySelector('.footer-small');
+
+if (footerYear) {
+  const yr = new Date().getFullYear();
+  footerYear.textContent = `Built with Time (Spent 3 Days) · ${yr}`;
+}
 
 });
