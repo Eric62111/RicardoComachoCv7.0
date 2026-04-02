@@ -235,7 +235,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const footerYear = document.querySelector('.footer-small');
   if (footerYear) {
     const yr = new Date().getFullYear();
-    footerYear.textContent = `Built with pride · ${yr}`;
+    footerYear.textContent = `Built with Time (Spent 3 Days) · 2026`;
   }
 
 });
